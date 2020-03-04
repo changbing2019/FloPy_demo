@@ -1,0 +1,26 @@
+
+Notes were written on Feb-20, 2020 by Yang
+
+The 8 notebooks were used to extract the output files of the MODFLOW models with mf2005.
+The notebooks need to have FloPy module installed.
+The file paths are absolute paths. If you want to implement them on you computers, you need to change those file paths.
+ 
+
+
+See the following file paths
+
+#Set the paths
+loadpth = 'D://USGS_UA//scenario_models//8//mf2005'
+filehds=r'D:\USGS_UA\scenario_models\8\mf2005\eaa_pred.hds'
+cbdf=r'D:\USGS_UA\scenario_models\8\mf2005\eaa_pred.cbd'
+fcsv=r'D:\USGS_UA\scenario_models\8\SR8_results_at_the targets.csv'
+Realization='Scenario Realization 8'
+
+The two csv files are from USGS file folders
+D:\USGS_UA\working\_data\head_obs.crd.csv'
+r'D:\USGS_UA\working\_data\DRN_dict.csv'
+
+The following files are from the bottom-up archive folders by Jim
+D:\Bottom-Up Archive\Bottom-Up Model Runs\L4STG5_MarcTrigger_newASRSchedule_AddVISPO_for30cfs\target_head.xlsx
+D:\Bottom-Up Archive\Bottom-Up Model Runs\L4STG5_MarcTrigger_newASRSchedule_AddVISPO_for30cfs\target_flux.xlsx
+
